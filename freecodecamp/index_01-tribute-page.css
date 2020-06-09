@@ -1,0 +1,41 @@
+body {}
+
+h1 {}
+
+h3 {}
+
+p {}
+
+a {}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+ul {}
+
+li {}
+
+blockquote {}
+
+q {}
+
+#main {}
+
+#title {}
+
+#img-div {}
+
+#image {
+    width: 100%;
+    align-items: center;
+}
+
+#img-caption {}
+
+#tribute-info {}
+
+#tribute-link {}
