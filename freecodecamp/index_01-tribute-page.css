@@ -1,10 +1,24 @@
-body {}
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
 
-h1 {}
+h1 {
+    font-size: 5em;
+    font-family: 'Playfair Display', Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: noall-petite-capsne;
+    font-variant: petite-caps;
+}
 
-h3 {}
+h2 {
+    font-size: 4em;
+    font-family: 'Playfair Display', Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
 
-p {}
+p {
+    font-size: 18px;
+    /*font-size: 14px; mobile*/
+}
 
 a {}
 
@@ -15,17 +29,40 @@ img {
     margin: 0 auto;
 }
 
-ul {}
+ul {
+    column-count: 2;
+    column-gap: 8.34%;
+}
 
-li {}
+li {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
 
-blockquote {}
+blockquote {
+    font-size: 3em;
+    font-family: 'Playfair Display', Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+blockquote span {
+    font-size: 24px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
 
 q {}
 
 #main {}
 
 #title {}
+
+#sub-title {
+    font-size: 48px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
 
 #img-div {}
 
@@ -34,7 +71,16 @@ q {}
     align-items: center;
 }
 
-#img-caption {}
+#img-caption p {
+    font-size: 2em;
+    font-family: 'Playfair Display', Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span#dsk {}
+
+span#mob {
+    display: none;
+}
 
 #tribute-info {}
 
